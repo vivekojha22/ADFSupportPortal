@@ -12,8 +12,8 @@ import streamlit as st
 
 
 # Azure OpenAI Configuration
-AZURE_OPENAI_ENDPOINT = st.secrets("AZURE_OPENAI_ENDPOINT")
-AZURE_OPENAI_KEY = st.secrets("AZURE_OPENAI_KEY")
+AZURE_OPENAI_ENDPOINT = st.secrets["AZURE_OPENAI_ENDPOINT"]
+AZURE_OPENAI_KEY = st.secrets["AZURE_OPENAI_KEY"]
 AZURE_OPENAI_DEPLOYMENT = "gpt-4o-mini"  # Use your actual deployment name
 AZURE_OPENAI_API_VERSION = "2024-02-15-preview"
 
